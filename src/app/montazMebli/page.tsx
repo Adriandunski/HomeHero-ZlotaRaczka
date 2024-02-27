@@ -4,8 +4,8 @@ import ServiceSectionTemplate from "@/components/servicesTamplete/ServiceSection
 import ContactUs from "@/sections/contactUs/ContactUs";
 
 export default function Assembly() {
-    const paragrafs = ['Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eros lorem, vestibulum accumsan tincidunt in, commodo vitae nibh. Fusce quis ante dolor. Sed vulputate, sem ut euismod tincidunt, mi quam eleifend ligula, vitae imperdiet elit urna quis arcu. Aliquam interdum mauris quam, non cursus leo porttitor eget.',
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eros lorem, vestibulum accumsan tincidunt in, commodo vitae nibh. Fusce quis ante dolor. Sed vulputate, sem ut euismod tincidunt, mi quam eleifend ligula, vitae imperdiet elit urna quis arcu. Aliquam interdum mauris quam, non cursus leo porttitor eget.'];
+    const paragrafs = ['Złota Rączka to więcej niż zwykły wykonawca - to partner, który zadba o każdy etap montażu mebli, zapewniając nie tylko solidność, ale także estetykę. Nasz doświadczony zespół specjalistów posiada nie tylko umiejętności techniczne, ale również wrażliwość na detale, co przekłada się na perfekcyjne wykonanie każdego zlecenia.',
+        'Nasze usługi montażu mebli obejmują szeroki zakres produktów, od prostych regałów po skomplikowane systemy szaf i kuchnie. Bez względu na to, czy potrzebujesz montażu mebli do sypialni, salonu czy biura, jesteśmy tu, aby Ci pomóc.\n'];
 
     return (
         <>

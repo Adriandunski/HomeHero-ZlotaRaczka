@@ -16,17 +16,16 @@ export default function Footer() {
                 <div className={"basis-[20rem]"}>
                     <h4 className={"font-extrabold text-xl text-neutral-700 underline decoration-4 underline-offset-8 decoration-main"}>Usługi</h4>
                     <div className={"flex flex-col gap-y-4 mt-7 font-bold text-neutral-600"}>
-                        <Link className={"text-lg hover:text-main"} href={'/strzyzenieWlosow'}>Usługi
-                            Hydrauliczne</Link>
-                        <Link className={"text-lg hover:text-main"} href={'/stylizacjaWlosow'}>Usługi
-                            Elektryczne</Link>
-                        <Link className={"text-lg hover:text-main"} href={'/trymowanieBrody'}>Usługi
-                            Budowalne</Link>
-                        <Link className={"text-lg hover:text-main"} href={'/uslugiHydrauliczne'}>Usługi Ogrodnicze</Link>
+                        <Link className={"text-lg hover:text-main"} href={'/zlotaRaczka'}>Złota Rączka</Link>
+                        <Link className={"text-lg hover:text-main"} href={'/malowanie'}>Malowanie</Link>
+                        <Link className={"text-lg hover:text-main"} href={'/montazMebli'}>Montaż mebli</Link>
+                        <Link className={"text-lg hover:text-main"} href={'/uslugiElektryczne'}>Usługi Elektryczne</Link>
                         <Link className={"text-lg hover:text-main"}
-                              href={'/repigmentacjaBrody'}>Montaż Mebli</Link>
+                              href={'/uslugiHydrauliczne'}>Usługi hydrauliczne</Link>
                         <Link className={"text-lg hover:text-main"}
-                              href={'/repigmentacjaBrody'}>Malowanie</Link>
+                              href={'/kladzeniePosadzek'}>Kładzenie posadzek</Link>
+                        <Link className={"text-lg hover:text-main"}
+                              href={'/naprawaArmaturySanitarnej'}>Naprawa armatury sanitarnej</Link>
                     </div>
                 </div>
                 <div className={"basis-[20rem] font-bold"}>

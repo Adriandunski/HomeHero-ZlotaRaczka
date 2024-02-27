@@ -8,40 +8,41 @@ export default function AboutUs() {
     return (
         <section id={'about_us'} className={"pt-[7rem] px-7"}>
             <div className={"flex lg:flex-row flex-col-reverse"}>
-                <div className={"basis-1/2 flex justify-center items-center"}>
-                    <div className={"flex overflow-hidden"}>
+                <div className={"basis-1/2 flex justify-center items-center md:mt-0 mt-10"}>
+                    <div className={"flex"}>
                         <motion.div animate={{
                             rotate: 360,
                             transition: {duration: 20, repeat: Infinity, ease: 'linear'}
                         }}
                                     className={"h-[30rem] aspect-square flex items-center"}>
-                            <Image className={"object-contain w-full h-full"} src={"/blob.png"} alt={"Blob"} width={1000} height={1000}></Image>
+                            <Image className={"object-contain w-full h-full"} src={"/blob.png"} alt={"Blob"}
+                                   width={1000} height={1000}></Image>
                         </motion.div>
                     </div>
 
                 </div>
                 <div className={"basis-1/2"}>
-                    <div className={'flex justify-center'}>
-                            <Topic isLeft={false}>O nas</Topic>
+                    <div className={'flex justify-center overflow-hidden'}>
+                        <Topic isLeft={false}>O nas</Topic>
                     </div>
 
                     <div className={"mt-10 flex h-full items-center text-lg leading-8 flex-col gap-5"}>
                         <div>
-                        <p className={''}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Pellentesque malesuada gravida eros,
-                            accumsan dapibus ex tincidunt et. Proin a est odio. Suspendisse posuere dolor ex. Etiam
-                            purus orci, posuere vitae quam vel, volutpat congue quam. Donec convallis porttitor
-                            fringilla. Nulla pretium sem id placerat placerat. Proin a est odio. Suspendisse posuere
-                            dolor ex. Etiam
-                            purus orci, posuere vitae quam vel, volutpat congue quam. Donec convallis porttitor
-                            fringilla. Nulla pretium sem id placerat placerat.</p>
+                            <p className={''}>Nasz zespół doświadczonych rzemieślników to mistrzowie w każdym detalu. Od
+                                malowania ścian po montaż mebli, oferujemy kompleksowe podejście do każdego zadania,
+                                zapewniając, że Twój dom będzie wyglądał tak, jak zawsze marzyłeś.
+                                Jeśli Twoje ściany krzyczą o odświeżenie, jesteśmy tutaj, by im przywrócić nowe życie.
+                                Nasze usługi malowania ścian to nie tylko pokrywanie farbą, to prawdziwa sztuka
+                                przemiany przestrzeni. Dzięki naszej wiedzy o kolorach i technikach, każde pomieszczenie
+                                stanie się oazą spokoju i harmonii.</p>
                         </div>
 
-                        <p className={''}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Pellentesque malesuada gravida eros,
-                            accumsan dapibus ex tincidunt et. Proin a est odio. Suspendisse posuere dolor ex. Etiam
-                            purus orci, posuere vitae quam vel, volutpat congue quam. Donec convallis porttitor
-                            fringilla. Nulla pretium sem id placerat placerat.</p>
+                        <p className={''}>Potrzebujesz pomocy przy montażu mebli? Złota Rączka to Twoja odpowiedź.
+                            Niezależnie od tego, czy są to proste regały czy skomplikowane systemy szaf, nasz zespół
+                            zadba o to, aby każdy element został umiejscowiony idealnie, dodając elegancji i
+                            funkcjonalności Twojemu wnętrzu.
+                            Złota Rączka to więcej niż firma remontowa - to partner, na którego możesz liczyć. Z nami
+                            możesz być pewien, że Twoje marzenia o idealnym domu staną się rzeczywistością.</p>
                     </div>
                 </div>
             </div>

@@ -18,7 +18,7 @@ export default function SumaryOpinions() {
     }, [inView])
 
     function start() {
-        const animation = animate(count, 18, {duration: 3});
+        const animation = animate(count, 25, {duration: 3});
     }
 
     return (

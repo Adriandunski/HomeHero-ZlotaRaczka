@@ -17,7 +17,8 @@ const config: Config = {
         'mainL3': '#bd6d6a',
         'mainDark': '#820E15',
         'backGround': '#BFA6A2',
-        'mainLight': '#FFB6A5'
+        'mainLight': '#FFB6A5',
+        'butelkowaZielen': '#396200'
       },
     },
     fontFamily: {
