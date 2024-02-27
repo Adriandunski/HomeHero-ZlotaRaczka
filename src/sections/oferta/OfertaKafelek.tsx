@@ -16,8 +16,10 @@ export default function OfertaKafelek({obiekt}: { obiekt: any }) {
     return (
         <motion.div variants={parentVariants} initial={'hidden'} whileInView={'visible'} viewport={{once: true}}
                     className={'border-main border-b-4 flex flex-col basis-[25rem] items-center gap-6 p-5 shadow-2xl'}>
-            <Image className={'w-full aspect-square'} src={obiekt.urlImg} alt={'Uslugi elektryk'} width={500}
-                   height={500}/>
+            {/*<Image className={'w-full aspect-square'} src={obiekt.urlImg} alt={'Uslugi elektryk'} width={500}*/}
+            {/*       height={500}/>*/}
+
+            <img className={'w-full aspect-square'} src={obiekt.urlImg} alt={obiekt.topic}/>
             <motion.h3 variants={itemVariants} initial={'hidden'} whileInView={'visible'} viewport={{once: true}}
                        className={'text-4xl text-main underline underline-offset-8 decoration-4 decoration-main text-center'}>{obiekt.topic}</motion.h3>
             <motion.p variants={itemVariants} initial={'hidden'} whileInView={'visible'} viewport={{once: true}}
