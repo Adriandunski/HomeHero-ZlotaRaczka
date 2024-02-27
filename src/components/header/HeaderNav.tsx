@@ -68,9 +68,9 @@ export default function HeaderNav() {
                                     className={"md:absolute bg-main w-screen h-screen md:h-[5rem] flex md:flex-row flex-col items-center md:justify-between justify-center px-7 py-3"}>
                             <div className={"md:flex md:static absolute left-5 top-5 items-center md:h-full h-auto"}>
                                 <div className={"w-[5rem] h-full flex"}>
-                                    <Image src={'/logoBez.png'} alt={'Logo HomeHero'}
+                                    <img src={'/logoBez.png'} alt={'Logo HomeHero'}
                                            className={"h-full w-full object-contain"}
-                                           width={200} height={200}></Image>
+                                           ></img>
                                 </div>
                             </div>
                             <div
