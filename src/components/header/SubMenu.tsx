@@ -21,8 +21,8 @@ export default function SubMenu({action} : {action: any}) {
     const childVariants = {visible: {opacity: 1, x: 0}, hidden: {opacity: 0, x: -200}};
 
     return (
-        <div className={'flex flex-col relative py-2'} onMouseEnter={mouseEnter} onMouseLeave={mouseLeave}>
-            <div className={'flex justify-center'}>
+        <div className={'flex flex-col relative'} onMouseEnter={mouseEnter} onMouseLeave={mouseLeave}>
+            <div className={'flex justify-center px-3 py-2 hover:bg-mainDark transition rounded-md'}>
                 <Link className={''} href={""}>Usługi</Link>
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                      strokeWidth="2.5"
@@ -37,18 +37,18 @@ export default function SubMenu({action} : {action: any}) {
                         whileInView={'visible'}
                         variants={parentVariants}
                         exit={'hidden'}
-                        className={'bg-main overflow-hidden md:text-left text-center md:absolute gap-4 top-[2.5rem] px-5 py-3 -left-3 rounded-md flex flex-col w-[15rem]'}>
+                        className={'bg-main overflow-hidden md:text-left text-center md:absolute gap-4 top-[2.8rem] px-5 py-3 -left-3 rounded-md flex flex-col w-[15rem]'}>
                         <motion.div onClick={action} variants={childVariants}><LinkSubMenu url={'/zlotaRaczka'}>Złota
                             Rączka</LinkSubMenu></motion.div>
                         <motion.div onClick={action} variants={childVariants}><LinkSubMenu
                             url={'/malowanie'}>Malowanie</LinkSubMenu></motion.div>
                         <motion.div onClick={action} variants={childVariants}><LinkSubMenu url={'/montazMebli'}>Montaż
-                            Mebli</LinkSubMenu></motion.div>
+                            mebli</LinkSubMenu></motion.div>
                         <motion.div onClick={action} variants={childVariants}><LinkSubMenu url={'/uslugiElektryczne'}>Usługi
-                            Elektryczne</LinkSubMenu></motion.div>
+                            elektryczne</LinkSubMenu></motion.div>
 
                         <motion.div onClick={action} variants={childVariants}><LinkSubMenu url={'/uslugiHydrauliczne'}>Usługi
-                            Hydrauliczne</LinkSubMenu></motion.div>
+                            hydrauliczne</LinkSubMenu></motion.div>
 
                         <motion.div onClick={action} variants={childVariants}><LinkSubMenu url={'/kladzeniePosadzek'}>Kładzenie posadzek</LinkSubMenu></motion.div>
 

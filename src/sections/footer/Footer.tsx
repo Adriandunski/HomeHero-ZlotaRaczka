@@ -19,7 +19,7 @@ export default function Footer() {
                         <Link className={"text-lg hover:text-main"} href={'/zlotaRaczka'}>Złota Rączka</Link>
                         <Link className={"text-lg hover:text-main"} href={'/malowanie'}>Malowanie</Link>
                         <Link className={"text-lg hover:text-main"} href={'/montazMebli'}>Montaż mebli</Link>
-                        <Link className={"text-lg hover:text-main"} href={'/uslugiElektryczne'}>Usługi Elektryczne</Link>
+                        <Link className={"text-lg hover:text-main"} href={'/uslugiElektryczne'}>Usługi elektryczne</Link>
                         <Link className={"text-lg hover:text-main"}
                               href={'/uslugiHydrauliczne'}>Usługi hydrauliczne</Link>
                         <Link className={"text-lg hover:text-main"}

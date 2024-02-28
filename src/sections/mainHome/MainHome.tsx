@@ -31,20 +31,18 @@ export default function MainHome() {
                         Złota Rączka to więcej niż tylko nazwa - to synonim wyjątkowej jakości usług. </p>
 
                     <div className={"lg:absolute h-[13rem] aspect-square top-[8rem] left-20 -rotate-12"}>
-                        <Image className={"w-full h-full object-contain"} src={'/topWykonawca.png'}
-                               alt={'Top Wykonawca'} width={150} height={150}></Image>
+                        <img className={"w-full h-full object-contain"} src={'/topWykonawca.png'}
+                             alt={'Top Wykonawca'}></img>
                     </div>
 
                     <div className={"flex justify-around text-3xl font-semibold"}>
                         <ButtonAnimation>
-                            <button className={"shadow-2xl bg-white w-[10rem] px-7 py-2 rounded-md text-main"}>
-                                <Link href={'#services'}>Usługi</Link>
-                            </button>
+                            <Link className={"shadow-2xl bg-white w-[10rem] px-7 py-2 rounded-md text-main"}
+                                  href={'#services'}>Usługi</Link>
                         </ButtonAnimation>
                         <ButtonAnimation>
-                            <button className={"shadow-2xl border-white w-[10rem] border-2 px-7 py-2 rounded-md"}>
-                                <Link href={'#contact_us'}>Kontakt</Link>
-                            </button>
+                            <Link className={"shadow-2xl border-white w-[10rem] border-2 px-7 py-2 rounded-md"}
+                                  href={'#contact_us'}>Kontakt</Link>
                         </ButtonAnimation>
 
                     </div>

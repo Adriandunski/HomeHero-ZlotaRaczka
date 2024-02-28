@@ -15,9 +15,7 @@ export default function OfertaKafelek({obiekt}: { obiekt: any }) {
 
     return (
         <motion.div variants={parentVariants} initial={'hidden'} whileInView={'visible'} viewport={{once: true}}
-                    className={'border-main border-b-4 flex flex-col basis-[25rem] items-center gap-6 p-5 shadow-2xl'}>
-            {/*<Image className={'w-full aspect-square'} src={obiekt.urlImg} alt={'Uslugi elektryk'} width={500}*/}
-            {/*       height={500}/>*/}
+                    className={'border-main border-b-4 flex flex-col basis-[25rem] items-center gap-7 p-5 shadow-2xl'}>
 
             <img className={'w-full aspect-square'} src={obiekt.urlImg} alt={obiekt.topic}/>
             <motion.h3 variants={itemVariants} initial={'hidden'} whileInView={'visible'} viewport={{once: true}}
@@ -26,14 +24,17 @@ export default function OfertaKafelek({obiekt}: { obiekt: any }) {
                       className={'text-neutral-700 text-lg text-center'}>
                 {obiekt.opis}
             </motion.p>
-            <ButtonAnimation>
 
-                <motion.button variants={itemVariants} initial={'hidden'} whileInView={'visible'}
-                               viewport={{once: true}}
-                               className={'border-2 border-main py-2 px-10 text-xl text-main rounded-full font-bold '}>
-                    <Link className={'w-full h-full'} href={obiekt.href}>Więcej</Link>
-                </motion.button>
-            </ButtonAnimation>
+
+            <motion.div variants={itemVariants} initial={'hidden'} whileInView={'visible'}
+                        viewport={{once: true}} className={'flex w-full h-full justify-center items-end'}
+            >
+                <ButtonAnimation>
+                    <Link className={'border-2 border-main py-2 px-10 text-xl text-main rounded-full font-bold '}
+                          href={obiekt.href}>Więcej</Link>
+                </ButtonAnimation>
+            </motion.div>
+
 
         </motion.div>
     );

@@ -20,8 +20,8 @@ export default function ServiceSectionTemplate({urlImage, paragrafs, children}: 
                         <div className={"basis-1/2 flex lg:h-auto h-[18rem] justify-center items-center"}>
                             <div
                                 className={"w-[80%] aspect-square rounded-full border-2 border-[#7E7263] overflow-hidden"}>
-                                <Image className={"h-full w-full object-cover"} src={urlImage} alt={children}
-                                       width={500} height={500}/>
+                                <img className={"h-full w-full object-cover"} src={urlImage} alt={children}
+                                       />
                             </div>
 
                         </div>

@@ -9,20 +9,16 @@ export default function AboutUs() {
         <section id={'about_us'} className={"pt-[7rem] px-7"}>
             <div className={"flex lg:flex-row flex-col-reverse"}>
                 <div className={"basis-1/2 flex justify-center items-center md:mt-0 mt-10"}>
-                    <div className={"flex"}>
-                        <motion.div animate={{
-                            rotate: 360,
-                            transition: {duration: 20, repeat: Infinity, ease: 'linear'}
-                        }}
-                                    className={"h-[30rem] aspect-square flex items-center"}>
-                            <Image className={"object-contain w-full h-full"} src={"/blob.png"} alt={"Blob"}
-                                   width={1000} height={1000}></Image>
-                        </motion.div>
-                    </div>
+
+                        <div className={'bg-main w-[60%] aspect-square animate-blob'}>
+
+                        </div>
+
+
 
                 </div>
                 <div className={"basis-1/2"}>
-                    <div className={'flex justify-center overflow-hidden'}>
+                <div className={'flex justify-center overflow-hidden'}>
                         <Topic isLeft={false}>O nas</Topic>
                     </div>
 
