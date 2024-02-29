@@ -52,7 +52,10 @@ export default function ContactUs() {
                                     <Link
                                         href={'https://www.google.pl/maps/place/HOME+HERO+Z%C5%82ota+R%C4%85czka+-+Malowanie+%C5%9Bcian+-+Monta%C5%BC+mebli+Warszawa/@52.2102055,20.9297174,17z/data=!3m1!4b1!4m6!3m5!1s0x471ecb564e9c7d67:0x75bf4f16da5d035d!8m2!3d52.2102022!4d20.9322977!16s%2Fg%2F11v3xpv1b3?entry=ttu'}
                                         className={"text-md hover:cursor-pointer text-neutral-600"}>
-                                        HOME HERO Złota Rączka
+                                        <p>HOME HERO Złota Rączka</p>
+                                        <p>Malowanie ścian</p>
+                                        <p>Montaż mebli</p>
+                                        <p>Warszawa</p>
                                     </Link>
                                     <div className={"flex flex-col items-center text-lg mt-5"}>
                                         <Link

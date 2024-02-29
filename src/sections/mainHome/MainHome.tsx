@@ -12,14 +12,16 @@ export default function MainHome() {
         <div id={'main_home'} className={'main min-h-[40rem]'}>
             <div className={"relative flex justify-center items-center h-full flex-col text-white md:pt-56 pt-32"}>
                 <header className={"text-center md:text-8xl text-5xl tracking-wider"}>
-                    <div className={'lg:h-[12rem] h-[7rem] font-semibold'}>
-                        <TypeAnimation className={'font-Roboto'} cursor={false} style={{whiteSpace: 'pre-line'}}
-                                       sequence={[
-                                           // Same substring at the start will only be typed once, initially
-                                           `HOME HERO\nZłota Rączka`,
-                                       ]}
-                                       speed={1}
-                        />
+                    <div className={'lg:h-[15rem] h-[9rem] font-semibold'}>
+                        <h1>
+                            <TypeAnimation className={'font-Roboto'} cursor={false} style={{whiteSpace: 'pre-line'}}
+                                           sequence={[
+                                               // Same substring at the start will only be typed once, initially
+                                               `Złota Rączka\nWarszawa\nHome Hero`,
+                                           ]}
+                                           speed={1}
+                            />
+                        </h1>
                     </div>
 
                     {/*<h2 className={"font-Roboto font-bold"}>Złota Rączka</h2>*/}

@@ -42,7 +42,7 @@ export default function SumaryOpinions() {
                 <Star wielkosc={6} czyZolta={true}></Star>
             </div>
             <div>
-                <span className={'text-xl'}>Na poddstawie: </span>
+                <span className={'text-xl'}>Na podstawie: </span>
                 <motion.span onViewportEnter={start} className={'text-xl font-semibold'}>{rounded}</motion.span>
                 <span className={'text-xl font-semibold'}> opini</span>
             </div>
