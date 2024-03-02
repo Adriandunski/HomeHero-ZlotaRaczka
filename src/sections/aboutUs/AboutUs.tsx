@@ -10,7 +10,7 @@ export default function AboutUs() {
             <div className={"flex lg:flex-row flex-col-reverse"}>
                 <div className={"basis-1/2 flex justify-center items-center md:mt-0 mt-10"}>
 
-                        <div className={'bg-main w-[60%] aspect-square animate-blob'}>
+                        <div className={'bg-[url(/twarz.jpg)] bg-center bg-contain md:w-[60%] w-[80%] aspect-square animate-blob'}>
 
                         </div>
 

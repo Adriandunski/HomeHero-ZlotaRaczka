@@ -26,7 +26,7 @@ export default function MainHome() {
 
                     {/*<h2 className={"font-Roboto font-bold"}>Złota Rączka</h2>*/}
                 </header>
-                <section className={"md:w-[50%] w-[90%] md:mt-16 lg:pb-24 pb-40 flex flex-col justify-center gap-12"}>
+                <section className={"lg:w-[60%] md:w-[70%] w-[90%] md:mt-44 lg:pb-24 pb-40 flex flex-col justify-center gap-12"}>
                     <p className={"text-2xl text-center leading-8"}>Witaj w świecie doskonałości remontowej z Home Hero
                         Złota Rączka! Nasza firma to nie tylko zespół ekspertów, to także gwarancja, że Twoje projekty
                         remontowe zostaną zrealizowane z najwyższą precyzją i pasją.
